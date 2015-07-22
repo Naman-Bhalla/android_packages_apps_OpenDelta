@@ -4,10 +4,10 @@
     <item type="bool" name="debug_output">false</item>
 
     <!-- Property to read for ROM version -->
-    <string name="property_version">ro.omni.version</string>
+    <string name="property_version">ro.delta.version</string>
 
     <!-- Property to read for device identifier -->
-    <string name="property_device">ro.omni.device</string>
+    <string name="property_device">ro.delta.device</string>
 
     <!-- %s is expanded to property_version value. .zip, .delta, .update, .sign extensions added when needed -->
     <string name="filename_base">omni-%s</string>
@@ -16,13 +16,13 @@
     <string name="path_base">OpenDelta</string>
 
     <!-- URL base to find .delta files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-    <string name="url_base_delta">https://delta.omnirom.org/nightlies/%s/</string>
+    <string name="url_base_delta">http://exodus-developers.net/exodus-5.1/bacon/</string>
 
     <!-- URL base to find .update and .sign files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-    <string name="url_base_update">http://delta.omnirom.org/nightlies/%s/</string>
+    <string name="url_base_update">http://exodus-developers.net/exodus-5.1/bacon/</string>
 
     <!-- URL base to find the full zip files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-    <string name="url_base_full">http://dl.omnirom.org/%s/</string>
+    <string name="url_base_full">http://exodus-developers.net/exodus-5.1/bacon/</string>
 
     <!-- Applies whole-file signature delta. Adds one extra delta step. Required if recovery verifies signatures -->
     <item type="bool" name="apply_signature">true</item>
